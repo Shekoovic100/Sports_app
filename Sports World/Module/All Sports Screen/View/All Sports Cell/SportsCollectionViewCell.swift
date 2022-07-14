@@ -14,7 +14,7 @@ class SportsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var cellContentView: UIView!{
         didSet{
             
-            cellContentView.layer.borderWidth = 2
+           
             cellContentView.layer.borderColor = UIColor.gray.cgColor
             cellContentView.layer.masksToBounds = true
             cellContentView.clipsToBounds = true
@@ -25,6 +25,7 @@ class SportsCollectionViewCell: UICollectionViewCell {
         didSet{
             
             sportthumbImage.layer.cornerRadius = sportthumbImage.frame.size.height / 4
+            sportthumbImage.layer.borderWidth = 0.98
         }
         
     }
