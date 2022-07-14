@@ -12,7 +12,7 @@ class LeagueTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cellContentView: UIView!{
         didSet{
-            cellContentView.layer.backgroundColor = UIColor.lightGray.cgColor
+           
             cellContentView.layer.borderColor = UIColor.black.cgColor
             cellContentView.layer.borderWidth = 1.0
             cellContentView.layer.cornerRadius = cellContentView.layer.frame.height / 4
